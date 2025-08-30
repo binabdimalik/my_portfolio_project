@@ -63,9 +63,14 @@ a{
 
 .about-info h1 {
     font-size: 60px;
+}
 
-.about-info p {
-    font-size: 15px;
-    margin:8px 0 20px;
-
+.about-info p{
+  font-size: 15px;
+   margin:8px 0 20px;
+}
+  
+.about-info h2 {
+    font-size:30px ;
+    margin-top: 1px;
 }
