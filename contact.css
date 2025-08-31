@@ -10,6 +10,7 @@ body{
     background-color:black;
     background: url(./img/contact.jpg);
     background-size:cover;
+    
 }
 
 a{
@@ -34,7 +35,7 @@ a{
 .navigation .logo {
     font-size: 70px;
     font-weight: 100px;
-    color: red;
+    color: black;
 }
 
 .navigation ul {
@@ -61,11 +62,11 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     height: 100vh;
-    color: white;
+    color:white;
     max-width: 700px;
-    text-align: center;
+    
     padding:50px 100px;
     
 }
@@ -81,4 +82,43 @@ a{
     font-size: 20px;
  }
 
- 
+.form{
+    width:100%;
+    padding:40px;
+    align-items: center;
+    
+
+ }
+
+ .form h2{
+    font-size: 35px;
+    font-weight: 500px;
+    color: black;
+ }
+
+ .form .inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+ }
+
+ .form .inputBox input,
+  .form .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    
+}
+
+.form .inputBox span {
+    position: absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+}
