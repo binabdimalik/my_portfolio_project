@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ 
+body{
+    background-color:black;
+    background: url(./img/contact.jpg);
+    background-size:cover;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    line-height: 10px;
+}
+
+.navigation{
+    position:fixed;
+    left: 1000;
+    top: 1000;
+    width: 100%;
+    padding: 25px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.navigation .logo {
+    font-size: 70px;
+    font-weight: 100px;
+    color: red;
+}
+
+.navigation ul {
+    display: flex;
+}
+.navigation ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navigation ul li a {
+    font-size: 25px;
+    font-weight: 400px;
+    transition: 0.1s;
+
+}
+ 
+.navigation ul li:hover a{
+    color: red;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    color: white;
+    max-width: 700px;
+    text-align: center;
+    padding:50px 100px;
+    
+}
+.contact-info h1{
+    color:white;
+    font-weight: 500px;
+    font-size: 40px;
+ }
+
+ .contact-info p {
+    color:white;
+    font-weight: 100px;
+    font-size: 20px;
+ }
+
+ 
